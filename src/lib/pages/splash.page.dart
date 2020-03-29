@@ -1,13 +1,12 @@
 import 'package:flare_flutter/flare_actor.dart';
 import 'package:flutter/material.dart';
-import 'package:iholder_app/pages/tab-controller.dart';
 import 'package:iholder_app/pages/tabs.pages.dart';
 
 class SplashPage extends StatelessWidget {
   Future delay(context) async {
     await new Future.delayed(
         new Duration(
-          milliseconds: 5000,
+          milliseconds: 3000,
         ), () {
       Navigator.push(
         context,

@@ -17,7 +17,7 @@ class _TabsPageState extends State<TabsPage>
   @override
   void initState() {
     super.initState();
-    tabController = TabController(length: 3, vsync: this);
+    tabController = TabController(length: 3, vsync: this, initialIndex: 1);
   }
 
   @override
